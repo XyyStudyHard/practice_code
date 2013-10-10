@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-//根据输入的数字返回正确的字符串，输入234，根据百十个位，返回BBSSS1234，位数最多为3位，简单题目
 
 int main(void)
 {
