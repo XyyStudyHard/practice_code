@@ -23,7 +23,8 @@ int main()
 		}
 		else
 		{
-			after_s += s[index];
+			after_s += s[index];  //不能像s一样，用index来表示after_s，因为after_s开始是个空值，
+			                      //增加的时候，那个index所指向的位置对after_s字符串时越界的，因此会产生错误
 		}
 	}
 	if (has_punct)
