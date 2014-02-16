@@ -22,6 +22,15 @@ int main(void)
 		i = i + 1;
 	}
 
+	/*
+	// this way is better!!
+	int *tp = intp;
+	for (vector<int>::iterator iter = ivec.begin(); iter != ivec.end(); ++iter, ++tp)
+		*tp = *iter;
+		
+	*/
+	
+	delete [] intp;
 	system("pause");
 	return 0;
 }
