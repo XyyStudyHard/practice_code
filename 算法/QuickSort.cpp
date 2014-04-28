@@ -4,6 +4,8 @@
 using namespace std;
 
 
+//更多解法，参考剑指offer的jzo28.cpp
+
 int partition(int arr[], int low, int high)
 {
 	//arr[0] = arr[low];
