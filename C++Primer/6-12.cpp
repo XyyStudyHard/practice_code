@@ -27,6 +27,11 @@ int main(void)
 		}
 		str1 = str;
 	}
+	if (count > max_count)
+	{
+		max_count = count;
+		max_str = str1;
+	}
 	cout << max_count << " : " << max_str << endl;
 
 	system("pause");
